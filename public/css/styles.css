@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  background-color: #8946A6;
+  color: #FFCDDD;
+  font-family: 'Dosis', sans-serif;
+}
+
+.comp{
+  font-size: 4rem;
+  color: #EA99D5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 25px;
+  margin: 20px auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #B762C1;
+  color: #FFCDDD;
+  border-color: #B762C1;
+}
+
+.btn:hover {
+  background-color: #7027A0;
+  color: #FFCDDD;
+  border-color: #7027A0;
+}
