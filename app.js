@@ -5,7 +5,7 @@ const mailchimp = require("@mailchimp/mailchimp_marketing");
 const { response } = require("express");
 
 mailchimp.setConfig({
-  apiKey: "5da0ea082fceb63148fac0980a1d4ee0-us12",
+  apiKey: process.env.API_KEY,
   server: "us12",
 });
 
